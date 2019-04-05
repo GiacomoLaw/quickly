@@ -1,0 +1,42 @@
+// colours
+$black: #000000 !default;
+$disabled: #c1c1c1 !default;
+$blue: #007bff !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #e83e8c !default;
+$red: #dc3545 !default;
+$orange: #fd7e14 !default;
+$yellow: #ffc107 !default;
+$green: #28a745 !default;
+$teal: #20c997 !default;
+$cyan: #17a2b8 !default;
+$white: #fff !default;
+$grey: #6c757d !default;
+$gray-dark: #343a40 !default;
+$primary: #007bff !default;
+$secondary: #6c757d !default;
+$success: #28a745 !default;
+$info: #17a2b8 !default;
+$warning: #ffc107 !default;
+$danger: #dc3545 !default;
+$light: #f8f9fa !default;
+$dark: #343a40 !default;
+
+// sizes
+$mobile-up: 601px !default;
+$tablet-up: 993px !default;
+$desk-up: 1201px !default;
+$mobile: 600px !default;
+$tablet: 992px !default;
+$desk: 1200px !default;
+
+$medium-and-up: "only screen and (min-width : #{$mobile-up})" !default;
+$large-and-up: "only screen and (min-width : #{$tablet-up})" !default;
+$extra-large-and-up: "only screen and (min-width : #{$desk-up})" !default;
+$small-and-down: "only screen and (max-width : #{$mobile})" !default;
+$medium-and-down: "only screen and (max-width : #{$tablet})" !default;
+$medium-only: "only screen and (min-width : #{$mobile-up}) and (max-width : #{$tablet})" !default;
+
+$number-columns: 12 !default;
+$gutter-width: 1.5rem !default;

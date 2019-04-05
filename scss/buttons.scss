@@ -1,0 +1,74 @@
+@import "variables";
+
+.btn  {
+  background-color: $primary;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  &:hover {
+	text-decoration: none;
+	background-color: lighten($primary, 10%);
+  }
+}
+
+.btn-rounded  {
+  border-radius: 30px;
+}
+
+.btn-square {
+  border-radius: 0;
+}
+
+.btn-warning  {
+  background-color: $warning;
+  font-weight: bold;
+  border-style: solid;
+  border-width: 3px;
+  border-color: $danger;
+  color: $black;
+  &:hover {
+	background-color: lighten($warning, 10%);
+  }
+}
+
+.btn-danger {
+  background-color: $danger;
+  &:hover {
+    background-color: lighten($danger, 10%);
+  }
+}
+
+.btn-outlined  {
+  border-width: 3px;
+  border-style: solid;
+  transition: all 0.5s;
+
+  &:hover {
+	color: #fff;
+	transition: all 0.5s;
+  }
+}
+
+button:disabled  {
+  box-shadow: unset;
+  opacity: .8;
+  background: $disabled;
+  color: #fff;
+  border: unset;
+
+  &:hover  {
+	box-shadow: unset;
+	background: $disabled;
+  }
+}
+
+// disable clicks on links in disabled buttons
+a.btn.disabled,
+fieldset:disabled a.btn {
+  pointer-events: none;
+}

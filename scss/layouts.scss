@@ -1,0 +1,119 @@
+@import "variables";
+
+.fullheight {
+  height: 100%;
+}
+
+.content {
+  margin-top: 30px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// padding
+
+.bg-pad {
+  padding: 10px;
+}
+
+.mar {
+  margin: 10px;
+}
+
+.pad-small {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.pad-medium {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.pad-large {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+// backgrounds
+
+.bg-black {
+  background-color: rgba($black, .3);
+}
+
+.bg-blue {
+  background-color: rgba($blue, .3);
+}
+
+.bg-indigo {
+  background-color: rgba($indigo, .3);
+}
+
+.bg-purple {
+  background-color: rgba($purple, .3);
+}
+
+.bg-pink {
+  background-color: rgba($pink, .3);
+}
+
+.bg-red {
+  background-color: rgba($red, .3);
+}
+
+.bg-orange {
+  background-color: rgba($orange, .3);
+}
+
+.bg-yellow {
+  background-color: rgba($yellow, .3);
+}
+
+.bg-green {
+  background-color: rgba($green, .3);
+}
+
+.bg-teal {
+  background-color: rgba($teal, .3);
+}
+
+.bg-cyan {
+  background-color: rgba($cyan, .3);
+}
+
+.bg-grey {
+  background-color: rgba($grey, .3);
+}
+
+.bg-gray-dark {
+  background-color: rgba($gray-dark, .3);
+}
+
+.bg-primary {
+  background-color: rgba($primary, .3);
+}
+
+.bg-secondary {
+  background-color: rgba($secondary, .3);
+}
+
+.bg-success {
+  background-color: rgba($success, .3);
+}
+
+.bg-info {
+  background-color: rgba($info, .3);
+}
+
+.bg-warning {
+  background-color: rgba($warning, .3);
+}
+
+.bg-danger {
+  background-color: rgba($danger, .3);
+}
+
+.bg-dark {
+  background-color: rgba($dark, .3);
+}
