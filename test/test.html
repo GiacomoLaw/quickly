@@ -1,0 +1,62 @@
+<!-- this page is only for local testing, and will not work on github pages -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Quickly Demo</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../dist/main.css">
+</head>
+<body>
+<div class="nav nav-dark" id="nav">
+	<a href="#" class="active">Home</a>
+	<a href="#news">News</a>
+	<a href="#contact">Contact</a>
+	<a href="#about">About</a>
+	<a href="javascript:void(0);" class="icon" onclick="navtoggle()">
+		<i class="fa fa-bars"></i>
+	</a>
+</div>
+<div class="container content">
+	<h1 class="center pad-small">Quickly - A simple CSS framework</h1>
+	<div class="row">
+		<div class="col-9">
+			<p>Quickly is a simple CSS framework, for busy developers. This page is just a demo for some of the features.</p>
+			<!-- columns -->
+			<h2>Column and responsive grid layout</h2>
+			<div class="row">
+				<div class="col bg-black bg-pad">
+					<p>Have multiple columns.</p>
+				</div>
+				<div class="col bg-blue bg-pad">
+					<p>Have multiple columns.</p>
+				</div>
+				<div class="col bg-red bg-pad">
+					<p>Have multiple columns.</p>
+				</div>
+			</div>
+			<br />
+			<p>Simply add more <code>class="col"</code>, as many times as you want to get responsive columns.</p>
+			<br />
+			<!-- buttons -->
+			<h2>Buttons</h2>
+			<button class="btn mar">Standard</button>
+			<button class="btn btn-rounded mar">Rounded</button>
+			<button class="btn btn-square mar">Square</button>
+			<button class="btn btn-warning mar">Warning</button>
+			<button class="btn btn-danger mar">Danger</button>
+			<button class="btn btn-danger mar">Danger</button>
+			<!-- nav -->
+			<h2 style="margin-top: 20px">Nav Bar</h2>
+			<p>Quickly features a full nav bar, responsive on all devices. It has both a dark and a light mode (this site is using the dark mode). Note that Font Awesome is required for the navbar to work.</p>
+		</div>
+		<div class="center col">
+			<a href='https://github.com/giacomolaw/quickly' target="_blank"><button class="btn pad-small"><i class="fab fa-github"></i> View on GitHub</button></a>
+			<a href='https://giacomolaw.me/quickly' target="_blank"><button class="btn pad-small">View docs</button></a>
+		</div>
+	</div>
+</div>
+<script src="../dist/script.min.js"></script>
+</body>
+</html>

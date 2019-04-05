@@ -1,9 +1,11 @@
 # Quickly
 Quickly is a lightweight CSS framework.
 
-Documentation coming soon.
+Documentation in progress.
 
-View the demo [here](https://giacomolaw.me/quickly/demo). Please note that this may be outdated and not have all features.
+View the demo and information [here](https://giacomolaw.me/quickly/index).
+
+Docs can be found [here](https://github.com/GiacomoLaw/quickly/wiki/).
 
 ## Installation
 Add via CDN:
